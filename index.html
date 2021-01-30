@@ -7,7 +7,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('/site.jpg');
+  background-image: url('/mysite.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -22,11 +22,23 @@ body, html {
   top: 0;
   left: 16px;
 }
+.info {
+  color: blue;
+  }
 
 .bottomleft {
   position: absolute;
   bottom: 0;
   left: 16px;
+}
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .middle {
@@ -49,14 +61,14 @@ hr {
     <p></p>
   </div>
   <div class="middle">
-    <h1>COMING SOON</h1>
+    <h1 class="info">COMING SOON</h1>
     <hr>
-    <p>This site is under Constructing.....</p>
+    <h4 class="info">This site is under Constructing.....</h4>
   </div>
   <div class="bottomleft">
     <p>Some text</p>
   </div>
 </div>
-
+  <footer>This site &copy; 2021, reserved Pardesi Babu </footer>
 </body>
 </html>
